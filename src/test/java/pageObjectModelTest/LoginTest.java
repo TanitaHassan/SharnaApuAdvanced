@@ -28,8 +28,7 @@ public class LoginTest {
 		loginPage.userName("tanita");
 		loginPage.passWord("123");
 		loginPage.loginButton();
-		//loginPage.createAccount();
-		//loginPage.forgetPass();
+		
 	}
 	@AfterMethod
 	public void closeApp() {
@@ -37,5 +36,5 @@ public class LoginTest {
 			driver.quit();
 		}
 	}
-
 }
+

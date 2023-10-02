@@ -6,7 +6,6 @@
       <class name="pageObjectModelTest.LoginTest">
         <methods>
           <include name="loginTest"/>
-          <include name="closeApp"/>
           <include name="openApp"/>
         </methods>
       </class> <!-- pageObjectModelTest.LoginTest -->
